@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#hero{
+  background-image: url("../../herobg.avif");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body{
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(44,91,22,1) 49%, rgba(21,96,16,1) 100%);
+}
+
+#navbar {
+  position: sticky;
+  top: 0;
+  z-index: 10; /* Keep it on top of other content */
+}
